@@ -548,7 +548,7 @@ Complete book exercises 4.1 (favourite animals), 4.2 (nap spots — list manipul
 ```
 LISTS  [ ]
 ──────────────────────────────────────────────
-my_list = ["a", "b", "c"]         # create
+my_list = ["a", "b", "c"]          # create
 my_list[0]                         # first item  → "a"
 my_list[-1]                        # last item   → "c"
 my_list[1:3]                       # slice       → ["b", "c"]
@@ -556,8 +556,8 @@ len(my_list)                       # length      → 3
 "b" in my_list                     # check       → True
 
 my_list.append("d")                # add to end
-my_list.insert(1, "x")            # add at index 1
-my_list.remove("b")               # remove by value
+my_list.insert(1, "x")             # add at index 1
+my_list.remove("b")                # remove by value
 my_list.pop(0)                     # remove by index; returns item
 my_list.pop()                      # remove last item
 my_list.clear()                    # remove all
@@ -565,23 +565,23 @@ my_list[0] = "z"                   # change item at index 0
 
 TUPLES  ( )
 ──────────────────────────────────────────────
-my_tuple = (10, 20, 30)           # create
+my_tuple = (10, 20, 30)            # create
 my_tuple[0]                        # access → 10
-a, b, c = my_tuple                # unpack
-single = ("x",)                   # single-item tuple (comma required!)
+a, b, c = my_tuple                 # unpack
+single = ("x",)                    # single-item tuple (comma required!)
 
 DICTIONARIES  { }
 ──────────────────────────────────────────────
-d = {"name": "Zia", "age": 1}     # create
+d = {"name": "Zia", "age": 1}      # create
 d["name"]                          # access → "Zia"
 d.get("breed")                     # safe access → None
-d.get("breed", "Unknown")         # safe with default → "Unknown"
+d.get("breed", "Unknown")          # safe with default → "Unknown"
 
-d["hobby"] = "napping"            # add new key
+d["hobby"] = "napping"             # add new key
 d["age"] = 2                       # update existing key
 del d["hobby"]                     # remove (KeyError if missing)
 d.pop("hobby")                     # remove and return value
-d.pop("hobby", None)              # safe remove
+d.pop("hobby", None)               # safe remove
 
 list(d.keys())                     # all keys
 list(d.values())                   # all values

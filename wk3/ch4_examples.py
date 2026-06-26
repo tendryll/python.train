@@ -38,6 +38,12 @@ shopping_cart = []
 print("Empty list:", shopping_cart)
 
 # A list created with items right away
+fruit_1 = "apple"
+fruit_2 = "banana"
+fruit_3 = "cherry"
+fruit_4 = "mango"
+
+
 fruits = ["apple", "banana", "cherry", "mango"]
 print("Fruits:", fruits)
 
